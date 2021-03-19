@@ -6,8 +6,7 @@ The Bracketing Method consists of the Bisection Method and False-Position Method
 
 ## Steps
 1. Choose a function and two inital x: f(x), x1, x2
-2a. Bisection Formula: x_new = x1+x2/2
-2b. False-Position Formula: x_new = x2 - (f(x2)(x1-x2)/f(x1)-f(x2)) 
+2. Bisection Formula: x_new = x1+x2/2 || False-Position Formula: x_new = x2 - (f(x2)(x1-x2)/f(x1)-f(x2)) 
 3. Check if f'(new) > 0 OR f'(new) is < 0. 
 4. Then determine if x_new = x1 OR x2 depedning on the f'(new)'s sign. 
 5. Repeat Step 2 until f'(x_new) < e, where e is 0. 
