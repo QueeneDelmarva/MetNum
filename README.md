@@ -14,4 +14,4 @@ The Bracketing Method consists of the Bisection Method and False-Position Method
 
 ## Functions Used 
 1. Bisection Method: f(x) = x^3 - x - 1, x1 = 1 and x2 = 2 
-2. False-Position Method: f(x) = 2x^3 - 2x - 5, x1 = 5 and x2 = 7 
+2. False-Position Method: f(x) = 2x^3 - 2x - 5, x1 = -5 and x2 = 7 
