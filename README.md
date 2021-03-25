@@ -1,6 +1,6 @@
 # Numerical Methods 
 
-Numerical methods are used to solve multidimensional problems, finding the extremum of a function determines either the maximum or minimum values. The functions could take on the algorithm search of the bracketing, naive search, or modified secant method. We apply the extremum to the Gradient Descent Method is to find the minimum of a vector-valued function by multiplying the gradient with a step size; we get the step size as a dynamic alpha from the algorithm search iterations. 
+Numerical methods are used to solve multidimensional problems, finding the extremum of a function determines either the maximum or minimum values. The functions could take on the algorithm search of the bracketing, naive search, or modified secant method. We apply the extremum to the Gradient Descent Method to find the minimum of a vector-valued function by multiplying the gradient with a step size; we get the step size as a dynamic alpha from the algorithm search iterations. 
 
 Bracketing Method: Bisection and False-Position
 
