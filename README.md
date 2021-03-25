@@ -7,9 +7,9 @@ Bracketing Method: Bisection and False-Position
 The Bracketing Method consists of the Bisection Method and False-Position Method, both are similar in operation except for it's formula. 
 
 ## Gradient Descent Steps 
-1. Choose any x_vector =〈x1, x2,... , xn〉
-2. Calculate ∇f(x_vector)=〈fx1,fx2, ... ,fn〉 
-3. Calculate x_vector_new =x_vector - ∇f(x_vector)alpha 
+1. Choose any x_vector =〈x1, x2, ..., xn〉
+2. Calculate ∇f(x_vector)=〈fx1, fx2, ..., fn〉 
+3. Calculate x_vector_new = x_vector - ∇f(x_vector)alpha 
 4. Repeat until ||∇f(x_vector)|| < e, where e is a small number. 
 
 ## Bracketing Method Steps
@@ -24,4 +24,4 @@ The Bracketing Method consists of the Bisection Method and False-Position Method
 1. Bisection Method: f(x) = x^3 - x - 1, x1 = 1 and x2 = 2 
 2. False-Position Method: f(x) = 2x^3 - 2x - 5, x1 = -5 and x2 = unknown 
 ### See the Gradient Descent Same Equations Folder
-3. Gradient Descent Method: f(x,y) = x^2 + y^2 + x + y + 6, x = -1, y = 1, and constant alpha = 0.1 
+3. Gradient Descent Method: f(x,y) = x^2 + y^2 + x + y + 6, x = -1, y = 1, constant alpha = 0.1, dynamic alpha = *depends on the Bracketing Iterations
