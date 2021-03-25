@@ -1,6 +1,6 @@
 # Numerical Methods 
 
-Numerical methods are used to solve multidimensional problems, finding the extrenum of a function determines either the maximum or minimum values. The functions could take on the algorithm search of the bracketing, naive search, or modified secant method. We apply the extrenum to the Gradient Descent Method is to find the minimum of a vector-valued function by multiplying the gradient with a step size; we get the step size as a dynamic alpha from the algorithm search iterations. 
+Numerical methods are used to solve multidimensional problems, finding the extremum of a function determines either the maximum or minimum values. The functions could take on the algorithm search of the bracketing, naive search, or modified secant method. We apply the extremum to the Gradient Descent Method is to find the minimum of a vector-valued function by multiplying the gradient with a step size; we get the step size as a dynamic alpha from the algorithm search iterations. 
 
 Bracketing Method: Bisection and False-Position
 
@@ -20,6 +20,8 @@ The Bracketing Method consists of the Bisection Method and False-Position Method
 5. Repeat Step 2 until f'(x_new) < e, where e is 0. 
 
 ## Functions Used 
+### See the Bracketing Different Equations Folder 
 1. Bisection Method: f(x) = x^3 - x - 1, x1 = 1 and x2 = 2 
 2. False-Position Method: f(x) = 2x^3 - 2x - 5, x1 = -5 and x2 = unknown 
-3. Gradient Descent Method: f(x,y) = x^2 + y^2 + x + y + 6
+### See the Gradient Descent Same Equations Folder
+3. Gradient Descent Method: f(x,y) = x^2 + y^2 + x + y + 6, x = -1, y = 1, and constant alpha = 0.1 
